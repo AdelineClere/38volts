@@ -1,0 +1,888 @@
+/* ---------------------
+    INFOS RESPONSIVE
+
+    col-xs	< 768 px		tel				> tout reste en place
+    col-sm	768 < > 992 	tablette		> passe sur 1 col en dessous de 768  (= pt de rupture)
+    col-md	992 < > 1200	ordi classiq	> passe sur 1 col en dessous de 992  (= pt de rupture)
+    col-lg	> 1200 px		Très grd format	> passe sur 1 col en dessous de 1200 (= pt de rupture)
+
+------------------------ */
+
+
+/* ---------------------
+    STYLE PAR DEFAUT
+------------------------ */
+ 
+h1 {
+    font-family: 'Open Sans', sans-serif; 
+    color: #73c7ff;
+    font-weight: 200;
+    font-size: 2.2em;
+    padding-bottom: 20px;
+    
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #b6c932;
+    font-weight: 600;
+    font-size: 2.6em;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #5e7526;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #b6c932;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #4b4d53;
+    font-size: 0.9em;
+    line-height: 170%;
+}
+p a {
+    border-bottom: 0;
+}
+p a:hover {
+    border-bottom: 0;
+} 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* .container {
+    padding: 0;
+    margin: 0;
+} */
+/* #contener{
+    width: 1000px;
+	margin: auto;
+    background: white;
+}  
+
+.reinitialise {
+    border-radius : 0
+}
+body {
+    box-sizing: border-box;
+}
+
+
+/*==========  Pour les Ecrans Large ==========*/ 
+
+/* remove marging */
+/* .rm {
+    margin: 0 !important;
+} */
+/* remove padding */
+/* .rp {
+    padding: 0 !important;
+} */
+/* marging top */
+/* .mt-40 {
+    margin-top: 40px;
+} */
+
+
+/* --------------------- NAV BAR ------------------------ */
+
+.bg-light {
+    background-color: #fff;
+}
+.mainNav {
+    /* margin-top: -180px; */
+    max-width: 1220px;
+    margin: auto;
+    margin-top: -120px;
+}
+.logo {
+    margin-top: -45px;
+    margin-left: 10px;
+}
+.navbar-nav {
+    margin: -20px 0 -9px 390px;
+}
+.navbar-nav li a {
+    font-family: 'Work Sans', sans-serif;
+    color: #4b4d53;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    padding: 17px 0;
+    margin: 0 25px;
+    /* line-height: 120%; */
+    /* vertical-align: middle; */
+}
+.navbar-nav li a:hover {
+    /* color: #b6c932; */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    padding-top: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #b6c932;
+}
+.nav-item {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+.bilikMenu {
+    padding-left: 40px;
+    margin-right: 0;
+}
+.bilikMenu:hover {
+    transform: scale(1.2);
+    padding-left: 20px;
+}
+
+/* --------------------- HEADER ------------------------ */
+
+.parallax{
+    background: url(../img/fond1.jpg) no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+#animTitre {
+    /* margin-top: 170px;
+    margin-left: 70px; */
+    max-width: 1220px;
+    margin: 12% 8% 0 8%;
+    position: absolute;
+}
+#animTitre h2 {
+    line-height: 0.8;
+}
+#animTitre .devis {
+    background:	#b6c932;
+    border: none;
+    padding: 5 50px;
+    margin-top: 35px;
+    border-radius: 0;
+}
+#animTitre .devis a {
+    color: #fff;
+    font-weight: 400;
+}
+#animTitre .devis:hover {
+    background:#73c7ff;
+    border: none;
+}
+#animTitre .devis a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/***************** MENUS SERVICES *******************/
+
+.blocBtn {
+    background: #19183b;
+    padding-top: 50px;
+}
+.lesServices {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1220px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.menuService {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom:30px;
+}
+.menuService a {
+    display: block;
+    text-align: center;
+    background: #b6c932;
+    margin-right: 20px;
+    width: 90px;
+    height: 90px; 
+    border-radius: 0 10px 0 10px;
+    line-height: 85px;
+}
+.services h4 {
+    padding-top: 10px;
+}
+.services p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 180%;
+    padding-right: 40px;
+}
+.services .bouton:hover {
+    transform: rotate(-15deg);
+}
+.services .pictos:hover {
+    transform: scale(2);
+}
+
+/***************** BANDEAU BILIK *******************/
+
+.bandeauBilik {
+    background: #4b4d53;
+}
+.membreBilik {
+    max-width: 1220px;
+    margin: auto;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.membreBilik img {
+    width: 40%;
+}
+.membreBilik p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1em;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.membreBilik span {
+    color: #b6c932;
+}
+
+/***************** HOME SERVICES *******************/
+
+.homeServices {
+    max-width: 1220px;
+    margin: auto;
+    margin-top: 80px;
+}
+.detailServices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1220px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.blocServicePicto {
+    margin-right: 40px;
+}
+.blocService {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom:30px;
+}
+.blocService a {
+    display: block;
+    text-align: center;
+    margin-right: 40px;
+    width: 90px;
+    height: 90px; 
+    line-height: 85px;
+}
+.blocServiceText {
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    padding: 15px 90px 0 25px;;
+}
+.blocService p {
+    line-height: 200%;
+    color: #5e7526;
+}
+.blocService p .premier {
+    font-variant-position: sup;
+}
+.blocService li {
+    font-family: 'Open Sans', sans-serif;
+    color: #4b4d53;
+    font-size: 0.9em;
+    line-height: 250%;
+    list-style: none;
+    /* list-style-type: '✘'; */
+}
+.bloc3 {
+    margin-top: -250px;
+}
+.bloc4 {
+    margin-top: 70px;
+}
+.bloc5 {
+    margin-top: 10px;
+}
+.bloc6 {
+    margin-top: 80px;
+}
+
+/***************** réalisations *******************/
+
+.parallaxReal {
+    background: #19183b url(../img/fond1.jpg) no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    /* height: 800px; */
+    background-attachment: fixed;
+    background-position: center;
+}
+.animReferences {
+    display: block;
+    position: relative;
+    max-width: 1220px;
+    margin: 10% 8% 0 8%;
+}
+.bandeauReal {
+    background: rgba(94, 117, 38, 0.7);
+    height: 110px;
+    margin-top: -110px;
+}
+.bandeauReal h2 {
+    max-width: 1220px;
+    text-align: left;
+    padding-top: 25px;
+}
+.container {
+    max-width: 1220px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+}
+.portfolio .col-sm-6 {
+    padding: 15px;
+}
+.portfolio {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portfolio img {
+    padding-bottom: 30px;
+}
+.portfolio p {
+    padding-bottom: 100px;
+}
+.portfolio h5 {
+    border-top: 1px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    padding-top: 30px;
+    margin-top: 20px;
+}
+/* #imgZoom {
+    height: 300;
+} */
+img#imgZoom:hover {
+    position: relative;
+    /* -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5); */
+    transform: scale(2);
+    z-index: 1000;
+}
+* {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/***************** CONTACT *******************/
+.parallaxContact{
+    background: url(../img/fond1.jpg) no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    margin-bottom: -30px;
+}
+.contact {
+    margin: 170px 0 80px 120px; 
+}
+.form-control {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.input-group-prepend {
+    height: 38px;
+}
+.email {
+    height: 38px;
+}
+.input-group-text {
+    border-radius: 0;
+}
+.btn-primary {
+    border-radius: 0;
+    background-color: #b6c932;
+    border: none;
+    margin-left: 88%;
+}
+.btn-primary:hover {
+    background-color: #73c7ff;
+    border: none;
+}
+/* button .flechUpContact a {
+    bottom: 150px;
+} */
+
+/***************** Flèche > top *******************/
+
+button .flechUp {
+    color: #73c7ff;
+	position: fixed; 
+	right: 15px;
+    bottom: 40px;
+    right: 30px;
+	background: none;
+	border: 0;
+    font-size: 250%;
+    transition: 1s;
+    /* cursor: pointer; */
+}
+button .flechUp :hover{
+	color: #b6c932;
+}
+
+/***************** FOOTER *******************/
+
+footer {
+    background: #19183b;
+    height: 210px;
+}
+.footerCommun {
+    margin-top: 120px;
+}
+footer p {
+    max-width: 1220px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+footer .textFooter {
+    max-width: 1220px;
+    margin: auto;
+}
+footer .mentionsFooter {
+    padding-left: 30px;
+    margin-top: -15px;
+    /* margin-bottom: -50px; */
+}
+footer .mentionsFooter p {
+    font-size: 0.8em;
+}
+footer .webA2l {
+    color: #73c7ff;
+    font-size: 1em;
+}
+footer .mentionsLeg {
+    color: #73c7ff;
+    font-size: 1em;
+}
+footer .webA2l:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+footer .mentionsLeg:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+footer .adresse {
+    padding-left: 60%;
+    padding-top: 20px;
+    line-height: 200%;
+}
+footer .adresse p {
+    line-height: 160%;
+}
+footer .nom {
+    color: #b6c932;
+    font-size: 1.3em;
+}
+footer .mail a {
+    color: #73c7ff;
+}
+footer .mail a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+.modal-header .close {
+    text-align: right;
+    padding-right: 0;
+}
+.modal-body {
+    background: #19183b;
+}
+footer h5 {
+    color: #73c7ff;
+    font-size: 1em;
+    padding: 0 20px;
+}
+footer h6 {
+    padding: 0 20px;
+}
+footer .modal-body p {
+    color: #fff;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin-top: 0;
+    line-height: 140%;
+}
+footer .modal-body a {
+    color: #73c7ff;
+}
+
+/***************** MEDIAQUERIES *******************/
+
+/* tablette */
+@media (max-width: 780px){  
+
+    h1 {
+        font-size: 1.6em;
+        padding-bottom: 13px;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.6em;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    h5 {
+       font-size: 1.3em;
+    }
+    h6 {
+        font-size: 0.8em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+    /* nav */
+    .logo {
+        /* width: 200px; */
+        margin-top: -50px;
+        margin-left: 15px;
+    }
+    .navbar-nav {
+        margin: auto;
+    }
+    .navbar-nav li a {
+        display: block;
+        text-align: right;
+        margin-right: 50px;
+    }
+    .nav-item {
+        border: none;
+    }
+    .navbar-brand {
+        display: block;
+        text-align: right;
+        margin-right: 50px;
+    }
+    /* parallax */
+    .parallax {
+        height: 570px;
+    }
+    #animTitre {
+        /* margin: 15% 8% 0 8%; */
+    }
+    #animTitre .devis {
+        margin-top: 20px;
+    }
+    .services {
+        padding: 0 20px;
+    } 
+    .bandeauBilik {
+        padding-left: 20px;;
+    }
+    /* bandeau services */
+    .services {
+        /* padding: 0 20px; */
+    } 
+    .services .pictos {
+        width: 70%;
+    }
+    .menuService a {
+        width: 65px;
+        height: 65px; 
+        line-height: 60px;
+        margin-right: 10px;
+    }
+    /* bilik */
+    .bandeauBilik {
+        padding-left: 10px;;
+    }
+    .membreBilik {
+        height: 130px;
+    }
+    .membreBilik img {
+        height: 100px;
+        width: 100px;
+        margin-left: 20px;
+    }
+    .membreBilik p {
+        font-size:0.9em;
+        line-height: 150%;
+        margin: 0;
+        padding: 0 20px 0 20px;
+    }
+    /* detail services */
+    .blocService a {
+        line-height: 65px;
+    }
+    .blocServicePicto {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .detailServices img {
+        padding-right: 20px;
+    }
+    .bloc1 {
+        margin-top: 20px;
+    }
+    .bloc2 {
+        margin-top: 20px;
+    }
+    .bloc3 {
+        margin-top: 20px;
+    }
+    .bloc4 {
+        margin-top: 20px;
+    }
+    .bloc5 {
+        margin-top: 20px;
+    }
+    .bloc6 {
+        margin-top: 20px;
+    }
+    /* realisations */
+    .bandeauReal h2 {
+        padding-left: 22px;
+    }
+    /* contact */
+    .parallaxContact{
+        height: 900px; */
+    }
+    .contact {
+        margin: 90px 0 70px 100px; 
+    }
+    .btn-primary {
+        margin-left: 85%;
+    }
+    .footerContact .adresse {
+        margin-left: 0;
+        padding-top: 40px;
+    }
+    
+/******************************$ mobile **********************************/
+@media (max-width: 580px){ 
+
+    h1 {
+        font-size: 1em;
+        padding-bottom: 13px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    #animTitre h2 {
+        line-height: 1.1;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    h4 {
+        font-size: 0.8em;
+    }
+    h5 {
+       font-size: 1em;
+    }
+    h6 {
+        font-size: 0.7em;
+    }
+    p {
+        font-size: 0.7em;
+    }
+    /* nav */
+    .navbar-toggler {
+        padding: .0rem .50rem;
+        /* padding: .25rem .75rem; */
+    }
+    .logo {
+        width: 130px;;
+        margin-top: -45px;
+        margin-left: 0px;
+    }
+    .navbar-nav {
+        margin: auto;
+    }
+    .navbar-nav li a {
+        display: block;
+        text-align: right;
+        margin-right: 50px;
+    }
+    .nav-item {
+        border: none;
+    }
+    .navbar-brand {
+        display: block;
+        text-align: right;
+        margin-right: 50px;
+    }
+    /* parallax */
+    .parallax {
+        height: 550px;
+    }
+    #animTitre {
+        margin: 30% 5% 0 5%;
+    }
+    #animTitre .devis {
+        margin-top: 20px;
+    }
+    /* bandeau services */
+    .services {
+        padding: 0 20px;
+    } 
+    .services .pictos {
+        width: 70%;
+    }
+    .menuService a {
+        width: 65px;
+        height: 65px; 
+        line-height: 60px;
+    }
+    /* bilik */
+    .bandeauBilik {
+        padding-left: 10px;;
+    }
+    .membreBilik {
+        height: 100px;
+    }
+    .membreBilik img {
+        height: 80px;
+        width: 80px;
+    }
+    .membreBilik p {
+        font-size: 0.8em;
+        line-height: 150%;
+        margin: 0;
+        padding: 0 0 0 20px;
+    }
+    /* detail services */
+    .blocService a {
+        line-height: 65px;
+    }
+    .detailServices img {
+        margin-left: -45px;
+    }
+    .blocServicePicto {
+        margin-left: 0;
+    }
+    .detailServices img {
+        padding-right: 40px;
+    }
+    .blocServiceText {
+        padding: 15px 10px 0 15px;;
+    }
+    .bloc1 {
+        margin-top: 20px;
+    }
+    .bloc2 {
+        margin-top: 20px;
+    }
+    .bloc3 {
+        margin-top: 20px;
+    }
+    .bloc4 {
+        margin-top: 20px;
+    }
+    .bloc5 {
+        margin-top: 20px;
+    }
+    .bloc6 {
+        margin-top: 20px;
+    }
+    .blocService li {
+        font-size: 0.7em;
+    }    
+/* realisations */
+    .bandeauReal h2 {
+        padding-left: 22px;
+    }
+    img#imgZoom:hover {
+        transform: scale(1.5);
+    }
+
+/* contact */
+    .parallaxContact{
+        height: 900px; */
+    }
+    .contact {
+        margin: 70px 0 40px 45px; 
+    }
+    .btn-primary {
+        margin-left: 60%;
+    }
+    #message .email {
+        margin-bottom: 20px;
+    }
+    /* button .flechUp {
+        bottom: 405px;
+    } */
+    .footerContact .adresse {
+        padding-left: 30%;
+    }
+    /* footer */
+    footer .adresse {
+        padding-left: 30%;
+        padding-top: 10px;
+        line-height: 200%;
+    }
+    footer .mentionsFooter p {
+        font-size: 60%;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footerContact .mentionsFooter p {
+        padding-top: 10px;
+    }
