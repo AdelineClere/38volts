@@ -5,7 +5,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=projet_perso', 'root', 'root', array
 ));
 */
 //-------------------- ⚠️ SESSION
-session_start();
+// session_start();
 
 //-------------------- ⚠️ CHEMIN
 //define('RACINE_SITE', $_SERVER['DOCUMENT_ROOT'] . "/PHP/boutique/");    

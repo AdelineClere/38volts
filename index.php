@@ -25,7 +25,7 @@ require_once("inc/header.php");
                                     <a class="nav-link" href="realisations.php">Réalisations</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.php">Contact</a>
+                                    <a class="nav-link" href="formulaire.php">Contact</a>
                                 </li>
                                 <a class="navbar-brand" href="https://www.bilik.fr/" target="_blank">
                                     <img src="img/bilik.png" class="bilikMenu img-responsive" width="85" alt="">
@@ -37,10 +37,13 @@ require_once("inc/header.php");
                 <!-- titre + btn Devis -->
                 <div class="container">
                     <div id="animTitre" class="animated bounceInDown img-responsive">
-                        <h1>Domotique | Electricité | Voltaïque</h1>
-                        <h2>Besoin d’un intervention ?</h2>
+                        <h1>Domotique | Electricité </h1>
+                        <h2>Besoin d’une intervention ?</h2>
                         <h3>Réactivité, efficacité, qualité</h3> 
-                        <button type="button" class="btn btn-info devis"><a href="contact.php">Devis gratuit</a></button> 
+                        <button type="button" class="btn btn-info devis"><a href="mailto:contact@38volts.fr">Devis gratuit</a></button>
+                        
+                       <!--  <button type="button" class="btn btn-info devis"><a href="formulaire.php">Devis gratuit</a></button> -->                       
+                        
                     </div>  
                 </div>
                     
@@ -63,7 +66,7 @@ require_once("inc/header.php");
                     </div>
                     <div class="col-10">
                         <h4>38 Volts ?</h4>
-                        <p>Electricien à Voiron, membre du réseau Bilik ...</p>
+                        <p>Electricien à La Buisse, membre du réseau Bilik, ...</p>
                     </div>
                 </div>
             </div>   
@@ -76,7 +79,7 @@ require_once("inc/header.php");
                     </div>
                     <div class="col-10 ">
                         <h4>Conseils, études</h4>
-                        <p>Depuis le 1<sup>er</sup> janvier 2009, la qualité de l’installation électrique a intégré ...</p>
+                        <p>Depuis le 1<sup>er</sup> janvier 2010, la qualité de l’installation électrique a intégré ...</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +92,7 @@ require_once("inc/header.php");
                         </div>
                     <div class="col-10">
                         <h4>Mise aux normes</h4>
-                        <p>Xxxxxxxx xxxx x xxxxx xxxxxxxxx x x xxx xxx xxx xxxx x xxxxx xxx ...</p>
+                        <p>Mise aux normes de votre installation, recherche de pannes, ...</p>
                     </div>
                 </div>
             </div>  
@@ -102,7 +105,7 @@ require_once("inc/header.php");
                     </div>
                     <div class="col-10">
                         <h4>Dépannage électrique</h4>
-                        <p>Pour les particuliers et les petites entreprises ...</p>
+                        <p>Pour les particuliers et les petites entreprises, ...</p>
                     </div>
                 </div>
             </div>    
@@ -115,7 +118,7 @@ require_once("inc/header.php");
                     </div>
                     <div class="col-10">
                         <h4>Alarmes et motorisations</h4>
-                        <p>Analyse des besoins, domotique ...</p>
+                        <p>Analyse des besoins, domotique, ...</p>
                     </div>
                 </div>
             </div>  
@@ -128,7 +131,7 @@ require_once("inc/header.php");
                     </div>
                     <div class="col-10">
                         <h4>Courants forts/faibles VDI</h4>
-                        <p>Voix, données images xxxxx xxxx xxx xx x xxxx xxxx x xxxxx...</p>
+                        <p>Voix, données images, réseaux informatiques, ...</p>
                     </div>
                 </div>
             </div>
@@ -210,12 +213,12 @@ require_once("inc/header.php");
                     </div>
                     <div class="col-10 blocServiceText">
                         <h5 id="conseil">Conseils, études</h5>
-                        <p>Depuis le 1<sup>er</sup> janvier 2009, la qualité de l’installation électrique a intégré la liste des diagnostics immobiliers à réaliser obligatoirement lors de la vente d’un logement, qu’il s’agisse d’une maison ou d’un appartement.</p>
+                        <p>Depuis le 1<sup>er</sup> janvier 2010, la qualité de l’installation électrique a intégré la liste&nbsp;des diagnostics immobiliers à réaliser obligatoirement lors de la vente&nbsp;d’un logement, qu’il s’agisse d’une maison ou d’un&nbsp;appartement.</p>
                         <ul>
                             <li>✘ Remise en état</li> 
                             <li>✘ Solutions pour économiser de l’énergie</li>  
                             <li>✘ Optimisation de la consommation d’énergie</li>
-                            <li>✘ Panneaux solaire</li>
+                            <li>✘ Chauffage radiateurs électriques, chauffage au sol</li>
                         </ul>
                     </div>
                 </div>
@@ -265,7 +268,7 @@ require_once("inc/header.php");
                     </div>
                     <div class="col-10 blocServiceText">
                         <h5 id="courants">Courants forts/faibles VDI</h5>
-                        <p>Voix, données images xxxxx xxxx xxx xx x xxxx xxxx x xxxxx...</p>
+                        <p>Voix, données images, réseaux informatiques,&nbsp;...</p>
                         <ul>
                             <li>✘ Alarme maison</li> 
                             <li>✘ Portail électrique</li>  
@@ -299,13 +302,4 @@ require_once("inc/header.php");
 <?php
 require_once("inc/footer.php");
 ?>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+

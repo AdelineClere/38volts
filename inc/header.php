@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         
         <!-- Description de la page -->
-        <meta name="38 VOLTS" content="Electricien Voiron Isère">
+        <meta name="38 VOLTS" content="Electricien La Buisse Isère">
 
         <!-- Pour Internet Explorer : S'assurer qu'il utilise la dernière version du moteur de rendu -->
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
@@ -34,6 +34,11 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <link rel="stylesheet" href="css/fontawesome/web-fonts-with-css/css/fontawesome.min.css">
 
+        <!-- FontAwesome CSS from Apple -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+ 
+ 
         <!-- Animate CSS -->
         <link rel="stylesheet" href="assets/animate.min.css">
        

@@ -24,7 +24,7 @@ require_once("inc/header.php");
                                         <a class="nav-link" href="realisations.php">Réalisations</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.php">Contact</a>
+                                        <a class="nav-link" href="formulaire.php">Contact</a>
                                     </li>
                                     <a class="navbar-brand" href="https://www.bilik.fr/" target="_blank">
                                         <img src="img/bilik.png" class="bilikMenu img-responsive" width="85" alt="">
@@ -78,8 +78,8 @@ require_once("inc/header.php");
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <img class="img-responsive zoom" id="imgZoom" src="img/tofs/couratier.jpg" style="width:100%">
-                    <h5>★ Couratier - Ou ? Surface ?</h5>
-                    <p>Salle de sport. <br> T'as fait quoi la ??</p>
+                    <h5>★ Couratier, St Martin-d'Hères, 850&nbsp;m<sup>2</sup> </h5>
+                    <p>Salle de sport. <br> Installation électrique, éclairage, vidéosurveillance, système de diffusion vidéo sur 8 écrans, vidéo-projecteur, sonorisation, câblage réseau informatique, contrôle d'accès par badges, ...</p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <img class="img-responsive zoom" id="imgZoom" src="img/tofs/domotique.jpg" style="width:100%">
@@ -88,8 +88,8 @@ require_once("inc/header.php");
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <img class="img-responsive zoom" id="imgZoom" src="img/tofs/fip-domene.jpg" style="width:100%">
-                    <h5>★ FIP Domène - C'est quoi ?</h5>
-                    <p>Mise en sécurité d'une installation courant faible.<br>Protection des connexions dans une gaine technique et coffrets.</p>
+                    <h5>★ FIP Domène</h5>
+                    <p>Salle d'archive du centre des impôts : mise en sécurité d'une installation courant faible.<br>Protection des connexions dans une gaine technique et coffrets.</p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <img class="img-responsive zoom" id="imgZoom" src="img/tofs/lycee-eclairage-ventilation.jpg" style="width:100%">
@@ -98,18 +98,18 @@ require_once("inc/header.php");
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <img class="img-responsive zoom" id="imgZoom" src="img/tofs/signoret.jpg" style="width:100%">
-                    <h5>★ Signoret- Maison neuve ? Surface ? lieu ?</h5>
-                    <p>Mise en sécurité et aux normes d'un tableau électrique triphasé.x</p>
+                    <h5>★ Signoret, maison neuve</h5>
+                    <p>Mise en sécurité et aux normes d'un tableau électrique triphasé. Installation électrique dans l'aménagement d'un sous-sol : cuisine, salon, hall, terrasse. Pose de chauffage au sol (St Etienne de Crossey)</p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <img class="img-responsive zoom" id="imgZoom" src="img/tofs/naturavelo.jpg" style="width:100%">
-                    <h5>★ Naturavelo - Surface ? lieu ?</h5>
+                    <h5>★ Naturavelo, Grenoble, 80&nbsp;m<sup>2</sup></h5>
                     <p>Création d'un magasin de cycles.<br>Etude d'éclairage, installation électrique.</p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <img class="img-responsive zoom" id="imgZoom" src="img/tofs/" style="width:100%">
-                    <h5>★ Vanderbosch Surface ? lieu ?</h5>
-                    <p>Installation électrique d'une maison neuve.</p>
+                    <img class="img-responsive zoom" id="imgZoom" src="img/tofs/vanderbosch.jpg" style="width:100%">
+                    <h5>★ Vanderbosch, Laval, maison neuve, 120&nbsp;m<sup>2</sup></h5>
+                    <p>Installation électrique : plan électrique, câblage, tableau, passage du Consuel.</p>
                 </div>
                 
             </div>

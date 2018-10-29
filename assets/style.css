@@ -209,6 +209,7 @@ body {
 .lesServices {
     text-align: center;
     padding-bottom: 50px;
+    /* animation-duration: 2s; */
 }
 .services {
     display: flex;
@@ -398,6 +399,7 @@ body {
     border-color: rgba(0, 0, 0, 0.3);
     padding-top: 30px;
     margin-top: 20px;
+	font-size: 1.1em;
 }
 /* #imgZoom {
     height: 300;
@@ -461,6 +463,13 @@ img#imgZoom:hover {
 /* button .flechUpContact a {
     bottom: 150px;
 } */
+
+
+.construction {
+	font-size: 18px;
+	font-weight: 100;
+	color: #FFF;
+}
 
 /***************** Flèche > top *******************/
 
@@ -570,6 +579,7 @@ footer .modal-body p {
 footer .modal-body a {
     color: #73c7ff;
 }
+
 
 /***************** MEDIAQUERIES *******************/
 

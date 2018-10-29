@@ -4,10 +4,10 @@
         <div class="textFooter">
             <div class="adresse">
                 <p><span class="nom"><strong>Fabien Clère</strong></span><br>
-                    36, rue de l’Egala 38500 La Buisse<br>
+                    36, rue de l’Egala 38500 - La Buisse<br>
                     <span class="tel"><strong>Tél. 06 29 82 16 46</strong></span><br>
                     Fax : 09 72 14 42 92<br>
-                    <span class="mail">Mail : <a href="mailto:contact@38volts.fr" class="mailTo">contact@38volts.fr</a>
+                    <span class="mail">Envoyer un mail : <a href="mailto:contact@38volts.fr" class="mailTo"><i class="fas fa-at"></i></a>
                     
                 </p>
             </div>
@@ -18,7 +18,7 @@
 
             <div class="mentionsFooter">
                 <!-- Trigger the modal with a button -->
-                <p>Réalisation © <a class="webA2l" target="_blank" href="https://adeline-clere.fr/">adeline-clere.fr</a> 2018   |  <a class="mentionsLeg" data-toggle="modal" data-target="#myModal" href="">Mentions légales<a/></p>
+                <p>Réalisation © <a class="webA2l" target="_blank" href="https://adeline-clere.fr/">adeline-clere.fr</a> 2018   |  <a class="mentionsLeg" data-toggle="modal" data-target="#myModal" href="">Mentions légales</a></p>
 
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" role="dialog">
@@ -36,8 +36,7 @@
                                     Forme juridique : EURL<br>
                                     Adresse : Fabien Clère - 179 chemin de la Plaine<br> 
                                     Tél : 06 29 82 16 46<br>
-                                    RCS : 000 000 000br> 
-                                    N° de SIRET : 000000000000000<br></p>     
+                                    N° de SIRET : 52288538300029<br></p>     
 
                                 <h6>Le site Internet</h6>  
                                 <p>www.38volts.fr est le site de la société 38 volts.<br> 
